@@ -235,9 +235,9 @@ CONFIG_IPV6=y
 #
 # Stripping options
 #
-CONFIG_NO_STRIP=y
+# CONFIG_NO_STRIP is not set
 # CONFIG_USE_STRIP is not set
-# CONFIG_USE_SSTRIP is not set
+CONFIG_USE_SSTRIP=y
 # CONFIG_STRIP_KERNEL_EXPORTS is not set
 # CONFIG_USE_MKLIBS is not set
 CONFIG_USE_UCLIBCXX=y
